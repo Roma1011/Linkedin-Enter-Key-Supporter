@@ -5,18 +5,18 @@
     "version": "1.0",
     "browser_action": 
     {
-        "default_icon": "send.png"
+        "default_icon": "assets/send.png"
     },
     "content_scripts": [
         {
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["main.js"]
+            "js": ["/js/main.js"]
         }
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "/js/background.js"
     },
     "permissions": [
         "storage"
