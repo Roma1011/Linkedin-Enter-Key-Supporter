@@ -5,7 +5,7 @@
     "version": "1.0",
     "browser_action": 
     {
-        "default_icon": "assets/send.png"
+        "default_icon": "/assets/send.png"
     },
     "content_scripts": [
         {
